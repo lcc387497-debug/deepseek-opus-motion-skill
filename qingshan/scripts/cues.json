@@ -1,0 +1,45 @@
+{
+  "duration": 20,
+  "bpm": 80,
+  "loop": true,
+  "palette": "ink",
+  "seed": 11,
+  "bed": [
+    {"type": "pad", "note": "D2", "start": 0, "end": 20, "gain": 0.2, "fade": 2, "voices": 3},
+    {"type": "ambience", "kind": "room", "start": 0, "end": 20, "gain": 0.035, "fade": 1.2}
+  ],
+  "patterns": [
+    {
+      "type": "pluck",
+      "every": 4,
+      "start": 0,
+      "end": 20,
+      "gain": 0.16,
+      "dur": 2.6,
+      "decay": 0.997,
+      "notes": ["D3", "E3", "F#3", "A3", "B3", "D4", "A3"]
+    }
+  ],
+  "events": [
+    {"t": 0.75, "type": "drop", "freq": 720, "dur": 0.2, "gain": 0.42},
+    {"t": 1.5, "type": "scratch", "dur": 0.42, "gain": 0.14, "pan": -0.35},
+    {"t": 2.25, "type": "scratch", "dur": 0.48, "gain": 0.15, "pan": -0.1},
+    {"t": 3.0, "type": "scratch", "dur": 0.5, "gain": 0.16, "pan": 0.15},
+    {"t": 3.75, "type": "pluck", "note": "A3", "dur": 2.2, "gain": 0.14},
+    {"t": 6.0, "type": "pluck", "note": "D4", "dur": 2.4, "gain": 0.18},
+    {"t": 6.75, "type": "scratch", "dur": 0.7, "gain": 0.12, "pan": 0.05},
+    {"t": 8.25, "type": "pluck", "note": "E4", "dur": 1.8, "gain": 0.14, "pan": -0.15},
+    {"t": 9.0, "type": "scratch", "dur": 0.62, "gain": 0.13, "pan": -0.25},
+    {"t": 10.5, "type": "drop", "freq": 640, "dur": 0.22, "gain": 0.38, "pan": -0.2},
+    {"t": 11.25, "type": "drop", "freq": 880, "dur": 0.16, "gain": 0.22, "pan": -0.15},
+    {"t": 12.0, "type": "drop", "freq": 1040, "dur": 0.14, "gain": 0.16, "pan": -0.1},
+    {"t": 12.15, "type": "scratch", "dur": 0.48, "gain": 0.13, "pan": 0.45},
+    {"t": 13.05, "type": "scratch", "dur": 0.48, "gain": 0.13, "pan": 0.5},
+    {"t": 14.25, "type": "knock", "freq": 540, "dur": 0.24, "gain": 0.46, "pan": 0.35},
+    {"t": 15.0, "type": "pluck", "note": "A4", "dur": 1.6, "gain": 0.1, "pan": 0.3},
+    {"t": 16.2, "type": "drop", "freq": 520, "dur": 0.18, "gain": 0.2},
+    {"t": 17.05, "type": "scratch", "dur": 0.4, "gain": 0.12, "pan": -0.2},
+    {"t": 17.25, "type": "pluck", "note": "F#3", "dur": 1.8, "gain": 0.12},
+    {"t": 18.15, "type": "scratch", "dur": 0.36, "gain": 0.1, "pan": 0.3}
+  ]
+}
